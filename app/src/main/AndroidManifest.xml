@@ -9,18 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.TipsActivity" />
+        <activity android:name="com.MobiTech.bettips.activities.TipsActivity" />
 
         <receiver android:name=".SyncButtonListener" />
-
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:name="com.MobiTech.bettips.SplashScreen"
+            android:label="BetTips"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.MobiTech.bettips.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 

@@ -1,4 +1,4 @@
-package com.nanocomputing.bettips.activities;
+package com.MobiTech.bettips.activities;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
