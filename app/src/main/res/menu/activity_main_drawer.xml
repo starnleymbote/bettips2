@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Daily" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Correct Score" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Double Chance" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="Over 2.5" />
+        <item
+            android:id="@+id/nav_under25"
+            android:title="Under 2.5" />
+    </group>
+
+    <item android:title="JackPots">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="MegaJackPot" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Mid-Week Jackpot" />
+        </menu>
+    </item>
+
+</menu>
