@@ -2,38 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="#A32177"
     >
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="12dp"
-        android:textColor="#454545"
-        android:gravity="center_horizontal"
-        android:layout_alignParentTop="true"
-        android:text="BetTips" />
-    <!--<DigitalClock-->
-    <!--android:gravity="center_horizontal"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content" />-->
+
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"
 
-        android:src="@drawable/mobitech" />
+        android:src="@mipmap/ic_launcher" />
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:textSize="12dp"
-        android:textColor="#454545"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
         android:gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:text="Welcome to MobiTech" />
+        android:text="A Product Developed by MobiTech" />
 
 </RelativeLayout>
