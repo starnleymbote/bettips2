@@ -47,6 +47,7 @@ public class TipsActivity extends AppCompatActivity {
         mAdView = findViewById(R.id.adView);
         mAdView1 = findViewById(R.id.adView1);
 
+        //tabs section
         switch (title){
             case "Correct Score":
                 getCorrectScore();
