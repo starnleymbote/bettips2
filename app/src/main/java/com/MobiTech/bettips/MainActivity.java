@@ -212,7 +212,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+//            int id = item.getItemId();
+            Intent intent = new Intent(MainActivity.this, TipsActivity.class);
+            intent.putExtra("title","Mid Week JackPot");
+            startActivity(intent);
+
+//            return true;
         }
 
         return super.onOptionsItemSelected(item);

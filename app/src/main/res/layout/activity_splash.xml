@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A32177"
+    android:background="#000000"
     >
 
     <ImageView
@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        android:src="@mipmap/ic_launcher" />
+        android:src="@mipmap/mobitech" />
 
     <TextView
         android:layout_width="fill_parent"
@@ -20,6 +20,7 @@
         android:textColor="#ffffff"
         android:gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:text="Product Developed by MobiTech" />
+        android:fontFamily="sans-serif-thin"
+        android:text="MobiTech" />
 
 </RelativeLayout>
