@@ -1,5 +1,4 @@
-package com.nanocomputing.bettips;
-
+package com.MobiTech.bettips;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -27,16 +26,17 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
-import com.nanocomputing.bettips.activities.TipsActivity;
+import com.nanocomputing.bettips.R;
+import com.MobiTech.bettips.activities.TipsActivity;
 import com.nanocomputing.bettips.fragments.MainFragment;
 import com.nanocomputing.bettips.models.tips;
-import com.nanocomputing.bettips.other.CountDrawable;
+import com.MobiTech.bettips.other.CountDrawable;
+import com.nanocomputing.bettips.tipsAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener,
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,
         MainFragment.OnFragmentInteractionListener {
     private RecyclerView recyclerView,recyclerView1;
     private Context context;
@@ -212,7 +212,12 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+//            int id = item.getItemId();
+            Intent intent = new Intent(MainActivity.this, TipsActivity.class);
+            intent.putExtra("title","Mid Week JackPot");
+            startActivity(intent);
+
+//            return true;
         }
 
         return super.onOptionsItemSelected(item);

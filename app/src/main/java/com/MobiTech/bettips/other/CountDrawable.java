@@ -1,4 +1,4 @@
-package com.nanocomputing.bettips.other;
+package com.MobiTech.bettips.other;
 
 import android.content.Context;
 import android.graphics.Canvas;

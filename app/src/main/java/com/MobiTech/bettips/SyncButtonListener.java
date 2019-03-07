@@ -1,4 +1,4 @@
-package com.nanocomputing.bettips;
+package com.MobiTech.bettips;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

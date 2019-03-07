@@ -1,4 +1,4 @@
-package com.nanocomputing.bettips;
+package com.MobiTech.bettips;
 
 import android.app.Application;
 
